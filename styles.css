@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: top;
+    height: 100vh;
+    background-color: #9fe2bc;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-list li {
+    margin: 0;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    width: 150px;
+}
+
+.project-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
