@@ -10,7 +10,7 @@ body {
 .project-list {
     list-style: none;
     padding: 0;
-    margin: 20px 500px;
+    margin: 20px 400px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -30,7 +30,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
     text-align: center;
-    width: 150px;
 }
 
 .project-link:hover {

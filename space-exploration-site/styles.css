@@ -1,0 +1,40 @@
+/*
+free images - unsplash.com
+cool fonts - 1001fonts.com
+color palettes - coolors.co/image-picker
+*/
+
+body {
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0 500px 0;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+.apply-button {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: inherit;
+    color: #82a5ca;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px black;
+}
+
+.underline-text {
+    border-bottom: 5px solid white;
+}
+
+#main-logo {
+    width: 100px;
+}
